@@ -4,4 +4,7 @@ class Show < ActiveRecord::Base
       maximum(:rating)
   end 
   
+  def self.most_popular_show
+    
+  end 
 end 
